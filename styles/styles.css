@@ -10,6 +10,8 @@
  * governing permissions and limitations under the License.
  */
 
+ @import url('../blocks/custom/banner-one.css');
+
 :root {
   /* colors */
   --background-color: white;
@@ -18,10 +20,11 @@
   --text-color: #131313;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
+  --scotia-blue: rgb(183, 223, 236);
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --body-font-family: scotia-regular, roboto, roboto-fallback, sans-serif;
+  --heading-font-family: scotia, roboto-condensed, roboto-condensed-fallback, sans-serif;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -239,7 +242,7 @@ main > .section > div {
 }
 
 main > .section:first-of-type {
-  margin-top: 0;
+  margin-top: 90px;
 }
 
 @media (width >= 900px) {

@@ -1,0 +1,56 @@
+.banner-one > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; /* Ensures the content fills the container's height */
+}
+
+.banner-one-container {
+    background-color: var(--scotia-blue);
+    margin: 0;
+    padding: 20px;
+    margin-top: 60px;
+    position: relative;
+    height: 265px; /* Fixed height for the container */
+}
+
+.banner-one div:first-child {
+    max-width: 100%; /* Restricts the text width to 50% of the container */
+    padding-right: 0px; 
+    position: absolute;
+    left: 20%; /* Position the text block starting from the center */
+    transform: translateX(-50%); /* Shift it to the left by 50% of its width to center it */
+    text-align: left; /* Align the text inside the block */
+}
+
+.banner-one div:first-child h2 {
+    width: 60%;
+    padding: 20px;
+    font-size: 35px;
+}
+
+
+.banner-one div:first-child p {
+    width: 50%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: medium;
+}
+
+.banner-one div:last-child {
+    flex-shrink: 0; /* Prevents the image section from shrinking */
+    position: absolute;
+    right: 0; /* Sticks the image to the right border */
+    top: 50%; /* Vertically centers the image */
+    transform: translateY(-50%); /* Ensures vertical centering */
+    height: 100%; /* Matches the height of the container */
+    display: flex;
+    align-items: center; /* Ensures the image is vertically centered inside */
+}
+
+.banner-one div:last-child img {
+    width: auto; /* Ensures the image keeps its aspect ratio */
+    height: 313px; /* Fixes the image height to the container height */
+    margin: 0;
+    padding: 0;
+}
