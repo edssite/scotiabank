@@ -4,12 +4,27 @@
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  grid-gap: 24px;
+  grid-gap: 34px;
 }
 
-.cards > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+.cards > ul li {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition for hover effect */
+  padding: 20px; /* Optional: Add padding inside the cards for better spacing */
+  background-color: white; /* Ensure the cards have a background */
+  border-radius: 8px; /* Optional: Slightly round the corners for a softer look */
+}
+
+.cards > ul > li > div:nth-child(3) {
+  border-top: 1px solid gray;
+}
+
+.cards > ul > li > div:nth-child(2) {
+  border-top: 1px solid gray;
+}
+
+.cards > ul > li > div:last-child {
+  border-top: 1px solid gray;
 }
 
 .cards .cards-card-body {
@@ -25,3 +40,22 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+/*H4 Button */
+.cards a:any-link  {
+  background-color: white;
+  font-size: 15px;
+  color: red;
+  padding: 10px;
+  width: 300px;
+  border-radius: 4px;
+  border: 1px solid red;
+}
+
+
+.cards a:any-link:hover {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+}
+
