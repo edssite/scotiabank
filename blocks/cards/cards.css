@@ -36,9 +36,12 @@
 }
 
 .cards > ul > li img {
-  width: 100%;
+  /* width: 100%;
   aspect-ratio: 4 / 3;
-  object-fit: cover;
+  object-fit: cover; */
+  max-width: 48px;
+  max-height: 48px;
+  margin-bottom: 12px;
 }
 
 /*H4 Button */

@@ -1,0 +1,73 @@
+.faq {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.faq > div {
+  margin: 10px 0;
+  max-width: 50%;
+  border-top: 1px solid rgba(0, 0, 0);
+  background-clip: padding-box;
+  
+
+}
+
+.faq h3 {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 100;
+  background: #ffffff;
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0; /* Remove default margin */
+  justify-content: flex-start; /* Align items to the left */
+  color: black;
+}
+
+.faq-container {
+  margin-bottom: 25px;
+}
+.faq h3:hover {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0; /* Remove default margin */
+  justify-content: flex-start; /* Align items to the left */
+}
+
+.faq h3::after {
+  content: "⌄";
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  transition: transform 0.1s;
+}
+
+.faq h3.active::after {
+  margin-left: 15px;
+  transform: rotate(180deg);
+}
+
+.faq p {
+  display: none;
+  padding: 10px;
+  background: #fff;
+  margin: 0;
+  width: 336px;
+  padding-left: 4rem;
+}
+
+.faq p:hover {
+  display: none;
+  padding: 10px;
+  margin: 0;
+  padding-left: 4rem;
+}
