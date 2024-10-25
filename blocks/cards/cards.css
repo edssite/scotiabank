@@ -8,7 +8,7 @@
 }
 
 .cards > ul li {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   transition: box-shadow 0.3s ease-in-out; /* Smooth transition for hover effect */
   padding: 20px; /* Optional: Add padding inside the cards for better spacing */
   background-color: white; /* Ensure the cards have a background */
@@ -17,6 +17,7 @@
 
 .cards > ul > li > div:nth-child(3) {
   border-top: 1px solid gray;
+  text-align: center;
 }
 
 .cards > ul > li > div:nth-child(2) {
@@ -31,6 +32,10 @@
   margin: 16px;
 }
 
+
+.cards p strong {
+  font-family: scotia;
+}
 .cards .cards-card-image {
   line-height: 0;
 }
