@@ -11,6 +11,9 @@
  */
 
  @import url('../blocks/custom/banner-one.css');
+ @import url('../blocks/custom/banner-two.css');
+ @import url('../blocks/custom/info-cards.css');
+ @import url('../blocks/custom/links-col.css');
 
 :root {
   /* colors */
@@ -21,6 +24,7 @@
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
   --scotia-blue: rgb(183, 223, 236);
+  --scotia-green: #005547;
 
   /* fonts */
   --body-font-family: scotia-regular, roboto, roboto-fallback, sans-serif;
@@ -108,7 +112,7 @@ h4,
 h5,
 h6 {
   margin-top: 0.8em;
-  margin-bottom: 0.25em;
+  margin-bottom: 0.5em;
   font-family: var(--heading-font-family);
   font-weight: 600;
   line-height: 1.25;
@@ -236,7 +240,7 @@ main > .section {
 }
 
 main > .section > div {
-  max-width: 1200px;
+  max-width: 1024px;
   margin: auto;
   padding: 0 24px;
 }

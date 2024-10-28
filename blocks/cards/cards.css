@@ -7,6 +7,11 @@
   grid-gap: 34px;
 }
 
+
+.cards-container{
+  margin-bottom: 90px !important;
+}
+
 .cards > ul li {
   box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   transition: box-shadow 0.3s ease-in-out; /* Smooth transition for hover effect */
@@ -41,9 +46,12 @@
 }
 
 .cards > ul > li img {
-  width: 100%;
+  /* width: 100%;
   aspect-ratio: 4 / 3;
-  object-fit: cover;
+  object-fit: cover; */
+  max-width: 48px;
+  max-height: 48px;
+  margin-bottom: 12px;
 }
 
 /*H4 Button */
