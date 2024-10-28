@@ -1,0 +1,30 @@
+.left-info > div {
+    display: flex;
+    gap: 20px;
+}
+
+.left-info img {
+    width: 50px;
+}
+
+.left-info p {
+    font-family: scotia;
+}
+
+.left-info-container {
+    display: flex;
+    justify-content: center; /* Centers the divs within the container */
+    width: 100%;
+    margin: 0 auto; /* Centers the container on the page */
+    padding: 20px;
+    padding-left: 300px;
+
+}
+
+.left-info-container > div:first-child {
+    width: 600px; /* Adjust width as needed for the first div */
+}
+
+.left-info-container > div:last-child {
+    width: 10000px; /* Adjust width as needed for the second div */
+}

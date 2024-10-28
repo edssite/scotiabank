@@ -14,6 +14,7 @@
  @import url('../blocks/custom/banner-two.css');
  @import url('../blocks/custom/info-cards.css');
  @import url('../blocks/custom/links-col.css');
+ @import url('../blocks/custom/left-info.css');
 
 :root {
   /* colors */

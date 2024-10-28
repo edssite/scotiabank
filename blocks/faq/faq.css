@@ -5,13 +5,11 @@
   position: relative;
 }
 
-.faq > div {
+.faq > div:not(:first-child) {
   margin: 10px 0;
   max-width: 50%;
   border-top: 1px solid rgba(0, 0, 0);
   background-clip: padding-box;
-  
-
 }
 
 .faq h3 {
