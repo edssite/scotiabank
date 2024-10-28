@@ -8,6 +8,10 @@
 
 }
 
+.info-cards-container{
+    margin-bottom: 90px !important;
+}
+
 .info-cards>div{
 
     flex-basis: 0;
@@ -36,7 +40,6 @@
     
     
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -71,3 +74,6 @@
   transition: transform 0.1s;
 }
 
+.info-cards p strong {
+    font-family: scotia;
+  }

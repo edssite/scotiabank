@@ -13,6 +13,7 @@
  @import url('../blocks/custom/banner-one.css');
  @import url('../blocks/custom/banner-two.css');
  @import url('../blocks/custom/info-cards.css');
+ @import url('../blocks/custom/links-col.css');
 
 :root {
   /* colors */

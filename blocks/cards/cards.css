@@ -7,6 +7,11 @@
   grid-gap: 34px;
 }
 
+
+.cards-container{
+  margin-bottom: 90px !important;
+}
+
 .cards > ul li {
   box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   transition: box-shadow 0.3s ease-in-out; /* Smooth transition for hover effect */

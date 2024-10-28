@@ -32,7 +32,7 @@
 }
 
 .faq-container {
-  margin-bottom: 25px;
+  margin-bottom: 77px !important;
 }
 .faq h3:hover {
   cursor: pointer;
